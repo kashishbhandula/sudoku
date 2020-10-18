@@ -50,6 +50,7 @@ int number_unassigned(int *row, int *col)
     }
     return num_unassign;
 }
+// last segment is not valid so fixed it ........ by kashish(dcrust)
 
 int is_safe(int n, int r, int c)
 {
